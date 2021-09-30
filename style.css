@@ -1,0 +1,77 @@
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: Hack, monospace;
+  background: rgb(27,27,31);
+  
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  margin: 11em 8em;
+}
+
+.container-item {
+  width: 1000px;
+  margin: 30px 0px 8em 0px;
+  border: 3px solid #333;
+  
+}
+
+.container-item-1 {
+  margin: 30px 0px 16em 0px;
+  border: 0;
+}
+
+.container-item-2 {
+  margin: 8em 0px 7em 0px;
+  border: 0;
+  line-height: 30px;
+  width: 100 px;
+}
+
+.container-item-3 {
+  margin: 7em 0px 8em 0px;
+  border: 0;
+}
+
+.container-item-4 {
+  margin: 5em 0px 8em 0px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 0.2em;
+  font-family:Hack, monospace;
+}
+
+p {
+  font-size: 1.3rem;
+  width: 55%;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+a {
+  color: #CDCDCD;
+}
+
+img {
+  margin: 0px 0px 0px 0.666em;
+}
